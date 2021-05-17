@@ -1,5 +1,9 @@
 # Google Research Football
 
+## Neue Zeilen einfügen
+Eine weitere Zeile
+Eine zweite Zeile
+
 This repository contains an RL environment based on open-source game Gameplay
 Football. <br> It was created by the Google Brain team for research purposes.
 
@@ -87,19 +91,26 @@ To quit the game press Ctrl+C in the terminal.
 
 # Contents #
 
-* [Running training](#training-agents-to-play-GRF)
-* [Playing the game](#playing-the-game)
-    * [Keyboard mappings](#keyboard-mappings)
-    * [Play vs built-in AI](#play-vs-built-in-AI)
-    * [Play vs pre-trained agent](#play-vs-pre-trained-agent)
-    * [Trained checkpoints](#trained-checkpoints)
-* [Environment API](gfootball/doc/api.md)
-* [Observations & Actions](gfootball/doc/observation.md)
-* [Scenarios](gfootball/doc/scenarios.md)
-* [Multi-agent support](gfootball/doc/multi_agent.md)
-* [Running in docker](gfootball/doc/docker.md)
-* [Saving replays, logs, traces](gfootball/doc/saving_replays.md)
-* [Imitation Learning](gfootball/doc/imitation.md)
+- [Google Research Football](#google-research-football)
+  - [Neue Zeilen einfügen](#neue-zeilen-einfügen)
+  - [Quick Start](#quick-start)
+    - [In colab](#in-colab)
+    - [Using Docker](#using-docker)
+    - [On your computer](#on-your-computer)
+      - [1. Install required packages](#1-install-required-packages)
+      - [Linux](#linux)
+      - [Mac OS X](#mac-os-x)
+      - [2a. From PyPi package](#2a-from-pypi-package)
+      - [2b. Installing from sources using GitHub repository](#2b-installing-from-sources-using-github-repository)
+      - [3. Time to play!](#3-time-to-play)
+- [Contents](#contents)
+  - [Training agents to play GRF](#training-agents-to-play-grf)
+    - [Run training](#run-training)
+  - [Playing the game](#playing-the-game)
+    - [Keyboard mappings](#keyboard-mappings)
+    - [Play vs built-in AI](#play-vs-built-in-ai)
+    - [Play vs pre-trained agent](#play-vs-pre-trained-agent)
+    - [Trained checkpoints](#trained-checkpoints)
 
 ## Training agents to play GRF
 
